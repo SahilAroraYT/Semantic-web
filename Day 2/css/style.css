@@ -1,0 +1,48 @@
+.container{
+    width: 1170px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.header{
+    width: 1170px;
+    height: 100px;
+    background-color: red;
+}
+
+.container .row1{
+    width: 1170px;
+    height: 100px;
+}
+
+
+.content-1{
+    height: 100px;
+    width: 390px;
+    background-color: aqua;
+    float: left;
+}
+.row1 .content-2{
+    height: 100px;
+    width: 390px;
+    background-color: yellow;
+    float: left;
+}
+.row1 .content-3{
+    height: 100px;
+    width: 390px;
+    background-color: pink;
+    float: left;
+}
+.row2 .content-4{
+    height: 100px;
+    width: 585px;
+    background-color: green;
+    float: left;
+}
+.row2 .content-5{
+    height: 100px;
+    width: 585px;
+    background-color: grey;
+    float: left;
+}
