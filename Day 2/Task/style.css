@@ -8,7 +8,7 @@
     width: auto;
     height: 600px;
     margin: 0 auto;
-    background-image: url('/img/header-img.jpg');
+    background-image: url('img/header-img.jpg');
     border: 2px solid transparent;
     background-repeat: no-repeat;
     background-size: cover;
@@ -189,7 +189,7 @@ input{
     height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/img/header-img.jpg');
+    background-image: url('img/header-img.jpg');
     transform: rotate(180deg);
 }
 
