@@ -1,0 +1,23 @@
+@prefix : <http://example.org/harrypotter#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Harry_Potter_Movie_Collection      a: MovieCollection ;
+                                     : name "Harry Potter and the Sorcerer's Stone", "Harry Potter and the Chamber of Secrets", "Harry Potter and the Prisoner of Azkaban", "Harry Potter and the Goblet of Fire", "Harry Potter and the Order of Phoenix", "Harry Potter and the Half-Blood Prince", "Harry Potter and the Deathly Hallows - Part 1", "Harry Potter and the Deathly Hallows - Part 2" ;
+                                     : cast : Daniel_Radcliffe, : Emma_Watson, : Rupert_Grint, : Matthew_Lewis, : Tom_Felton, : Alan_Rickman, : Bonnie_Wright, : Micheal_Gambon .
+
+: Daniel_Radcliffe                  a: actor 
+                                     : character "Harry Potter" .
+: Emma_Watson                       a: actor 
+                                     : character "Hermoine Granger" .
+: Rupert_Grint                      a: actor 
+                                     : character "Ron Weasley" .
+: Matthew_Lewis                     a: actor 
+                                     : character "Neville Longbottom" .
+: Tom_Felton                        a: actor 
+                                     : character "Draco Malfoy" .
+: Alan_Rickman                      a: actor 
+                                     : character "Professor Snape" .
+: Bonnie_Wright                     a: actor 
+                                     : character "Ginny Weasley" .
+: Micheal_Gambon                    a: actor 
+                                     : character "Professor Albus dumbledore" .
